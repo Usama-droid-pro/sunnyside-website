@@ -1,0 +1,434 @@
+body{
+   
+    
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.navbar-content
+{
+    margin: 0 2% 0;
+    
+}
+.navbar{
+    background-color:#00bfff;
+    
+}
+.nav-link.contact-link
+{
+    text-align: center;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: hsl(212, 27%, 19%) !important;
+    
+}
+.navbar-brand
+{
+    font-weight: 900;
+    color: #fff !important;
+}
+.contact-link:hover
+{
+    background-color: transparent;
+    color: #fff !important;
+
+}
+.navbar-item
+{
+   padding: 3%;
+   
+}
+
+.navbar-links
+{
+   margin-right: 3rem;
+   font-size: 0.9rem;
+}
+.nav-link{
+    color: #fff !important;
+}
+
+.top-banner
+{
+    
+    background: url('../images/desktop/image-header.jpg') no-repeat center;
+    background-size: cover;
+    padding: 16rem 0 9.7rem;
+    height: 700px;
+    text-align: center;
+    
+}
+.top-banner h1{
+    letter-spacing: 0.6rem;
+    font-family: "Barlow" ;
+    font-weight:900;
+    color: #fff;
+    padding-bottom: 2rem;
+
+}
+.arrow-down{
+    margin-top: 2.5rem;
+}
+
+.heading-div
+{
+    position: relative;
+    bottom: 2.5rem;
+}
+
+/* products */
+
+.products-images
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.p-image-column 
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.product-content
+{
+    
+    margin: 30% 10%;
+    
+}
+.product-heading
+{
+    font-family: "fraunces";
+    font-weight: 700;
+    font-size: 3rem;
+   margin:0.2rem 2rem 2.3rem 0;
+    
+}
+
+.product-discription
+{
+    color:hsl(213, 9%, 39%);
+
+}
+.learn-more,.learn-more-1
+{
+    margin-top: 2rem;
+    font-family: "fraunces" ;
+    font-weight:700; 
+    font-size: 1rem;
+    display: inline-block;
+     
+}
+.learn-more-1:hover
+{
+    background: linear-gradient(to bottom, transparent 50%,hsl(7, 99%, 70%));
+}
+.learn-more:hover
+{
+    background: linear-gradient(to bottom, transparent 50%,#fce041 50%);
+}
+
+.graphic-design-content,.photography-content
+{
+
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    
+}
+.graphic-design-content{
+    color: hsl(167, 40%, 24%);
+}
+
+.photography-content
+{
+    color: hsl(198, 62%, 26%);
+}
+.graphic-design-heading, .photography-heading
+{
+    font-family: "fraunces";
+    margin-bottom: 2rem;
+    font-weight: 700;
+    
+}
+.graphic-design-desc,.photography-desc
+{
+    font-family:"Barlow";
+    font-weight: 600;
+}
+
+/* Testimonials */
+
+.testimonial-row{
+    margin: 4rem 15%;
+    text-align: center;
+}
+.testimonial-image
+{
+    border-radius: 50%;
+    width: 20%;
+}
+.testimonial-column
+{
+    
+}
+.testimonial-desc
+{
+    margin: 3rem 1rem;
+    font-family: "Barlow";
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:hsl(198, 62%, 26%);
+    
+}
+.testimonial-name{
+    font-family: "fraunces";
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.testimonial-name-desc
+{
+    font-size: 0.7rem;
+    font-family: "fraunces";
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+}
+.testimonial-heading
+{
+    letter-spacing: 0.2rem;
+    color: hsl(232, 10%, 55%);
+    font-family: "fraunces";
+    font-size: 1.1rem;
+    font-weight: 700;
+    
+}
+.test-heading{
+  margin: 5rem 0rem 0;
+  padding: 0%;
+}
+
+
+/* Bottom images */
+
+.images
+{
+   
+    width: 100%;
+    padding: 0px 0px;
+}
+.bottom-images
+{
+   padding: 0;
+}
+
+.footer-row
+{
+    background-color:#96ded1;
+    text-align: center;
+}
+.footer-heading
+{
+    margin: 4rem 2rem 0rem;
+    color: hsl(168, 34%, 41%) ;
+    font-family:"Barlow" ;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.alinks{
+    padding: 2rem 1.4rem 1rem;
+    font-size: 1rem;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+
+}
+.links{
+margin-top: 2rem;
+}
+.alinks:hover{
+    color: #fff;
+}
+.fab
+{
+    padding: 6rem 0.3rem 1.5rem;
+    color: hsl(168, 34%, 41%);
+}
+.fab:hover
+{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 1rem;
+    
+}
+
+    
+}
+@media screen and (max-width: 1106px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.9rem;
+    
+}}
+@media screen and (max-width: 1045px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.8rem;
+    
+}}
+@media screen and (max-width: 990px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 1.2rem;
+    
+}}
+@media screen and (max-width: 670px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.9rem;
+    
+}}
+@media screen and (max-width: 562px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.8rem;
+    
+}}
+@media screen and (max-width: 528px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.7rem;
+    
+}}
+@media screen and (max-width: 492px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.6rem;
+    
+}
+.graphic-design-heading, .photography-heading
+{
+    font-family: "fraunces";
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+}
+@media screen and (max-width: 435px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 39%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.6rem;
+    
+}
+.graphic-design-heading, .photography-heading
+{
+    font-family: "fraunces";
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    
+}
+}
+
+@media screen and (max-width: 416px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.6rem;
+    
+}
+.graphic-design-heading, .photography-heading
+{
+    font-family: "fraunces";
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    
+}
+}
+@media screen and (max-width: 405px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.5rem;
+    
+}
+.graphic-design-heading, .photography-heading
+{
+    font-family: "fraunces";
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 0.7rem;
+    
+}
+}
+@media screen and (max-width: 372px) {
+    .graphic-design-content,.photography-content
+{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    margin: 3rem 8rem 2rem;
+    font-size: 0.3rem;
+    
+}
+.graphic-design-heading, .photography-heading
+{
+    font-family: "fraunces";
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 0.6rem;
+    
+}
+}
